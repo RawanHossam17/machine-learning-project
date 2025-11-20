@@ -60,6 +60,11 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+
+# Ignore large numpy image files
+image_data/*.npy
+
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
