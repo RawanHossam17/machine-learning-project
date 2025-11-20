@@ -1,0 +1,32 @@
+# Ignore image datasets
+image_project/data/raw/
+image_project/data/preprocessed/
+numeric_project/data/raw/
+numeric_project/data/cleaned/
+
+# Ignore all images
+*.jpg
+*.png
+*.jpeg
+
+# Ignore zip files
+*.zip
+
+# Ignore model weights
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# VS Code
+.vscode/
